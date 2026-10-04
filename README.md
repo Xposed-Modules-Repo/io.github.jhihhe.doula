@@ -238,8 +238,8 @@ Doula is an Android Douyin enhancement module for LSPosed / Xposed, with feed fi
 
 ## 关于本仓库
 
-本仓库名称 **Doula-Douyin-LSPosed**，用于 Doula / 抖音增强模块 / Douyin module / LSPosed / Xposed 的宣传、功能说明与问题反馈。
+本仓库是 Doula 在 Xposed-Modules-Repo 下的官方收录仓库，用于功能说明与安装包发布。宣传主页与问题反馈见 [Doula-Douyin-LSPosed](https://github.com/jhihhe/Doula-Douyin-LSPosed)。
 
-**仅发布介绍文档，不包含模块源码、原始 APK、签名密钥或构建文件。** 暂无公开发行版与下载附件。
+**仅发布说明文档和签名后的 Doula 安装包，不上传模块源码、上游原始 APK、签名密钥或构建文件。** 下载见 [Releases](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)。GitHub 自动生成的 Source code 压缩包仅含本仓库文档，不含模块源码。
 
 Doula 当前界面与适配维护者：`@JhihHe`。基于原“抖+”模块适配，保留上游及第三方版权和许可证声明；维护者署名不替代上游作者。Doula 与抖音官方无隶属关系。

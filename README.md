@@ -13,7 +13,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [![Android](https://img.shields.io/badge/Android-13%2B-3DDC84?logo=android&logoColor=white)](#安装与使用)
 [![Architecture](https://img.shields.io/badge/架构-ARM64-4682B4)](#安装与使用)
 [![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
-[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2040.9-FF4757)](VALIDATION.md)
+[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.0-FF4757)](VALIDATION.md)
 [![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)
 [![Lanzou](https://img.shields.io/badge/备用下载-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/icUpK4fip9vi)
 

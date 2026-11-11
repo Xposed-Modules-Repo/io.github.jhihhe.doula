@@ -15,7 +15,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
 [![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2040.9-FF4757)](VALIDATION.md)
 [![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)
-[![Lanzou](https://img.shields.io/badge/备用下载-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)
+[![Lanzou](https://img.shields.io/badge/备用下载-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/icUpK4fip9vi)
 
 [官方发行与下载](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases) · [完整功能](FEATURES.md) · [更新日志](CHANGELOG.md) · [真实截图](GALLERY.md) · [反馈教程](BUG-REPORT.md)
 
@@ -27,7 +27,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 [1.1.4 正式版](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111101-1.1.4) · [全部发行版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-1.1.4 APK 和 ZIP 可从发行页下载；若 LSPosed 目录尚未刷新，可先使用发行页。1.1.3 的历史蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/iM0cj4e4jtmd)，密码：`7fwn`。
+1.1.4 蓝奏 ZIP：[点击下载](https://wwbqb.lanzoul.com/icUpK4fip9vi)，密码：`ds6m`。解压后安装 APK；若 LSPosed 目录尚未刷新，也可使用发行页。
 
 ## 重点体验：画面更沉浸，信息更清楚
 

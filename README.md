@@ -4,7 +4,7 @@
 
 Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤、手势、消息和媒体工具。按自己的习惯调整界面与播放体验。
 
-<img width="5530" height="6446" alt="image" src="https://github.com/user-attachments/assets/eac8e4d6-6803-4e14-9901-25939cc09b00" />
+<img width="593" height="605" alt="image" src="https://github.com/user-attachments/assets/285c9322-a557-458c-b980-11a0290dd552" />
 
 **全屏控件半透明沉浸播放 · 彩虹弹幕 · 发布时间与发布地**
 

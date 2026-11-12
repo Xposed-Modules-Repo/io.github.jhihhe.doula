@@ -9,7 +9,7 @@
 
 已在一台 41.0.0 设备验证部分功能；旧版、其他机型和部分功能组合尚未全部回归。视频下载历史证书错误场景尚未确认修复。首次建立适配缓存可能需要更长时间。
 
-[正式版下载及详细说明](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111101-1.1.4) · [蓝奏 ZIP](https://wwbqb.lanzoul.com/icUpK4fip9vi)，密码 `ds6m`。
+[正式版下载及详细说明](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026111101-1.1.4) · [蓝奏 ZIP](https://wwbqb.lanzoul.com/iKpMK4fooaoh)，密码 `girf`。
 
 ## 1.1.3 · 2026-10-31
 

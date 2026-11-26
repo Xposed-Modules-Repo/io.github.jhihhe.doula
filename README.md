@@ -1,10 +1,18 @@
-<div align="center">
+<!-- readme-visuals:header:start -->
+<p align="center"><img src="readme-assets/banner.svg" alt="Doula — Playback, filtering and personal controls" width="100%"></p>
 
+<p align="center">
+  <a href="https://github.com/jhihhe/Doula-Douyin-LSPosed/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/Doula-Douyin-LSPosed?style=flat-square&amp;color=fb7185" alt="Last commit"></a>
+  <a href="https://github.com/jhihhe/Doula-Douyin-LSPosed/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/Doula-Douyin-LSPosed?style=flat-square&amp;color=fb7185" alt="GitHub stars"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-fb7185?style=flat-square" alt="Maintainer: @Jhih he"></a>
+</p>
+<!-- readme-visuals:header:end -->
+
+<div align="center">
+  
 # Doula · 沉浸播放，让画面更出彩
 
 Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤、手势、消息和媒体工具。按自己的习惯调整界面与播放体验。
-
-[Telegram 交流群：@DOULA_LSPOSED](https://t.me/Doula_LSPosed)
 
 **全屏控件半透明沉浸播放 · 彩虹弹幕 · 发布时间与发布地**
 
@@ -15,9 +23,10 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [![Android](https://img.shields.io/badge/Android-13%2B-3DDC84?logo=android&logoColor=white)](#安装与使用)
 [![Architecture](https://img.shields.io/badge/架构-ARM64-4682B4)](#安装与使用)
 [![Xposed API](https://img.shields.io/badge/Xposed%20API-102-7C4DFF)](#安装与使用)
-[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.2-FF4757)](VALIDATION.md)
-[![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)
-[![Lanzou](https://img.shields.io/badge/历史1.1.4-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iKpMK4fooaoh)
+[![Douyin](https://img.shields.io/badge/抖音-40.6%20%E2%80%93%2041.3-FF4757)](VALIDATION.md)
+[![Feedback](https://img.shields.io/badge/反馈-GitHub%20Issues-24292F?logo=github)](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)[![Lanzou](https://img.shields.io/badge/历史1.1.4-蓝奏云-0078D4)](https://wwbqb.lanzoul.com/iKpMK4fooaoh)
+
+[Telegram 交流群：@DOULA_LSPOSED](https://t.me/Doula_LSPosed)
 
 [官方发行与下载](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases) · [完整功能](FEATURES.md) · [更新日志](CHANGELOG.md) · [真实截图](GALLERY.md) · [反馈教程](BUG-REPORT.md)
 
@@ -25,25 +34,49 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 版本与下载
 
-**Doula 1.1.6 正式版 · 2026112340 · 2026-11-24**
+**Doula 2.0 正式版 · 2026112720 · 2026-11-26**
 
-编译时间：2026-11-23 23:50:17（北京时间）。
+编译时间：2026-11-26 19:58:32（北京时间）。
 
-**建议把官方抖音更新到 41.2.0，这一版主要围绕 41.2 适配，使用它能获得更好的适配体验。** 旧版兼容路径仍保留，其他机型和部分场景还在继续复验。
+**建议使用官方抖音 41.3.0。** 保留40.6–41.2兼容路径；旧版与其他机型不等于已完成本轮全量实测。
 
-这次修正发布时间/发布地字体过紧、相关搜索黑底、分享工具行样式与重复项，补上41.2弹幕入口、收藏、拍摄、消息和表情等接口，并统一版本与构建信息。[口语版更新日志](CHANGELOG.md)
+这次补上41.3适配，新增实时视频模糊填边、悬浮倍速、进度时间颜色/位置和更多消息媒体工具；修复双击分发、长按入口、底栏和短视频进度等问题。全屏沉浸保留主体原比例，当前手机换片与合集往返已验证。[口语版更新日志](RELEASE-2.0.md) · [对比1.1.6的完整清单](CHANGE-INVENTORY-2.0.md)
 
-[下载 1.1.6 正式版 APK / ZIP](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112340-1.1.6) · [同代码测试版 1.1.6-preview.39](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112341-1.1.6-preview.39) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
+[下载 2.0 正式版 APK / ZIP](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112720-2.0) · [同代码测试版 2.0-preview.1](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112721-2.0-preview.1) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
 
-正式版和测试版功能一致，只区分版本标识与发布通道。Telegram群只发正式版：[交流群 @Doula_LSPosed](https://t.me/Doula_LSPosed) · [下载话题](https://t.me/Doula_LSPosed/4) · [Bug反馈](https://t.me/Doula_LSPosed/32)。
+正式版和测试版来自同一份冻结源码，功能一致，只区分版本、通道和构建信息。Telegram群只发正式版：[交流群 @Doula_LSPosed](https://t.me/Doula_LSPosed) · [下载话题](https://t.me/Doula_LSPosed/4) · [Bug反馈](https://t.me/Doula_LSPosed/32)。
 
-需要 Android 13+、ARM64、现代 Xposed API 102。覆盖安装后完整重启抖音。本轮主要实测OPPO/抖音41.2，初始化及部分行为通过；消息、媒体、手势的部分完整对照和其他环境仍待验，详见[验证范围](VALIDATION.md)。
+需要 Android 13+、ARM64、现代 Xposed API 102。覆盖安装后完整重启抖音。本轮主要实测OPPO/抖音41.3；真实视频取帧、主体不变、背景更新、合集返回及部分播放/手势/消息路径有实际证据，其他范围见[验证记录](VALIDATION.md)。
 
-旧蓝奏链接仍是 **1.1.4 修正版**，1.1.6请使用本页GitHub或Telegram附件。
+旧蓝奏链接仍是 **1.1.4 修正版**，2.0请使用本页GitHub或Telegram正式版附件。
+
+## 项目速览
+
+<table>
+<tr>
+<td width="33%"><strong>沉浸播放</strong><br><br>分别调整顶底菜单与视频控件透明度。</td>
+<td width="33%"><strong>内容与操作</strong><br><br>内容过滤、四区域手势及媒体工具。</td>
+<td width="33%"><strong>版本与验证</strong><br><br>适配范围与实测边界以 VALIDATION.md 为准。</td>
+</tr>
+</table>
+
+### 流程概览
+
+```mermaid
+flowchart LR
+    S0["核对 Android 与抖音版本"] --> S1
+    S1["安装对应模块"] --> S2
+    S2["启用作用域并重启抖音"] --> S3
+    S3["按需配置并核对效果"]
+```
+
+<!-- readme-visuals:overview:end -->
 
 ## 重点体验：画面更沉浸，信息更清楚
 
 ### 全屏控件半透明沉浸播放
+
+2.0新增首页实时视频氛围背景：主体保持原比例，用当前视频的模糊画面铺满留白。关闭后恢复原背景；完整显示短视频选项保持优先。
 
 顶部菜单、视频控件、底部菜单的透明度分别调节，播放与暂停各有一套设置。**0–100 自由选择：半透明保留必要操作提示，完全透明让画面更干净，暂停时也可以恢复显示。** 状态栏与导航栏另有显示选项，视频保持原始画幅，不强行拉伸横屏内容。
 
@@ -61,7 +94,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 分别选择显示时间、显示发布地，也可启用多彩显示。让内容发布信息更直观；**仅显示视频提供的可读取发布地，缺失时不猜测、不推算创作者实时位置**。这不是查看他人当前位置的工具。
 
-![彩虹弹幕与发布时间发布地 · 候选真机原图](11-rainbow-time-place.png)
+![彩虹弹幕与发布时间发布地 · 候选真机原图](screenshots/update-40.7/11-rainbow-time-place.png)
 
 真机截图同时展示半透明控件、彩虹弹幕与视频时间/发布地，来自40.7 / 1.1.0-dy40.6-40.7-api102-rc.3候选。视频与弹幕为第三方公开内容，创作者与本模块无关联。
 
@@ -88,7 +121,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 安装与使用
 
-需要 Android 13 或更高版本、ARM64 设备，以及支持现代 Xposed API 102 的框架。适配路径包括官方抖音 40.6.0 / 400601、40.7.0 / 400701、40.8.0 / 400801、40.9.0 / 400901、41.0.0、41.1.0 和 41.2.0；不同版本的功能验证范围请查看 [验证记录](VALIDATION.md)。
+需要 Android 13 或更高版本、ARM64 设备，以及支持现代 Xposed API 102 的框架。适配路径包括官方抖音 40.6.0 / 400601、40.7.0 / 400701、40.8.0 / 400801、40.9.0 / 400901、41.0.0、41.1.0、41.2.0 和 41.3.0；不同版本的功能验证范围请查看 [验证记录](VALIDATION.md)。
 
 1. 使用支持现代 Xposed API 102 的框架；环境要求 Android 13+ / ARM64。
 2. 安装 Releases 中明确对应目标抖音版本的 APK。官方包名 `io.github.jhihhe.doula`，抖音目标包名 `com.ss.android.ugc.aweme`。
@@ -97,7 +130,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 5. 菜单勾选的是要隐藏的项目，保存后按提示重启。不要清除抖音数据来解决普通加载问题。
 6. 无入口或不生效时，按 [反馈教程](BUG-REPORT.md) 提交具体版本、步骤与日志。桌面缓存维护不能修复框架不支持或作用域错误。
 
-本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701**、**40.8.0 / 400801** 与 **40.9.0 / 400901**；1.1.6重点新增41.2.0适配，建议使用41.2.0；40.6–41.1路径仍保留，部分功能及旧版回归仍在继续；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
+本轮适配路径针对 **40.6.0 / 400601**、**40.7.0 / 400701**、**40.8.0 / 400801** 与 **40.9.0 / 400901**；2.0重点适配41.3.0，建议使用41.3.0；40.6–41.2路径仍保留，部分功能及旧版回归仍在继续；不等于任意“最新版”都兼容。Android 11、抖音极速版、TikTok 及其他版本不在当前支持声明中。
 
 
 ## 截图、验证与反馈
@@ -109,4 +142,3 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 [提交问题](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)。体验有帮助，欢迎收藏、留言并自愿支持维护；反馈请附具体版本和复现步骤。
 
 Doula 当前界面、兼容层与发布维护者：**@Jhih he**。[版权与来源声明](NOTICES.md)。仓库用于文档、宣传图、真实截图与发行记录，不公开模块源码、原始输入 APK、私有日志或签名密钥。Doula 与抖音官方无隶属关系。
-

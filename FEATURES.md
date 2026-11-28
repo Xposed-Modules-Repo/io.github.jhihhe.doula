@@ -4,7 +4,7 @@
 
 建议搭配本次附带的实测抖音 **41.3.0（410300）**。请在[发行页](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112890-2.1.0)同时下载 Doula 模块和 410300 抖音原包，安装后在 LSPosed 勾选抖音作用域并完整重启。已安装 410300 的用户可以直接更新模块。410301 仅部分离线适配。
 
-2.0.2重点适配官方抖音41.3.0，建议使用41.3.0。新增、旧功能变化及修复的完整对照见[2.0清单](CHANGE-INVENTORY-2.0.md)。Android 13+ / ARM64 / 现代 Xposed API 102，实测范围见VALIDATION.md。
+本版完整变化见[2.1.0 更新说明](RELEASE-2.1.0.md)。更早的变化保留在[2.0 对照清单](CHANGE-INVENTORY-2.0.md)。Android 13+ / ARM64 / 现代 Xposed API 102，实测范围见[验证记录](VALIDATION.md)。
 
 正式版2.0与测试版2.0-preview.1来自同一份冻结源码，功能一致。Telegram下载话题仅提供正式版，测试版通过GitHub下载。
 

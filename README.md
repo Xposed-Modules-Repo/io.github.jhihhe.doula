@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://github.com/jhihhe/Doula-Douyin-LSPosed/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/Doula-Douyin-LSPosed?style=flat-square&amp;color=fb7185" alt="Last commit"></a>
   <a href="https://github.com/jhihhe/Doula-Douyin-LSPosed/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/Doula-Douyin-LSPosed?style=flat-square&amp;color=fb7185" alt="GitHub stars"></a>
-  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-fb7185?style=flat-square" alt="Maintainer: @Jhih he"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhihhe-fb7185?style=flat-square" alt="Maintainer: @Jhihhe"></a>
 </p>
 <!-- readme-visuals:header:end -->
 
@@ -16,7 +16,7 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 **全屏控件半透明沉浸播放 · 彩虹弹幕 · 发布时间与发布地**
 
-@Jhih he · Android 13+ · ARM64 · 现代 Xposed API 102
+@Jhihhe · Android 13+ · ARM64 · 现代 Xposed API 102
 
 [![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.jhihhe.doula?label=Release&color=E65252)](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.jhihhe.doula/total?label=Downloads&color=6C72CB)](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
@@ -34,25 +34,15 @@ Doula 是适用于抖音的 LSPosed 模块，提供沉浸播放、内容过滤�
 
 ## 版本与下载
 
-**Doula 2.0.2 正式版 · 2026112729 · 2026-11-26**
+**Doula 2.1.0 正式版 · 2026112890**
 
-编译时间：2026-11-26 22:37:55（北京时间）。
+编译时间 2026-11-29 01:46:56（北京时间）。
 
-本次补回“界面与控件 → 底部导航菜单 → 发布加号（＋）”，同时修复缓存列表绕过隐藏规则。已在当前手机验证勾选隐藏、重启后取消恢复，原设置保留。2.0.1的总开关读取修复、真实宿主版本/ClassLoader/匹配诊断一并保留。
+修复导航透明时首页控件消失，更新播放按钮与评论设置，支持 GIF 保存、新下载提示及默认屏蔽检测更新。
 
-推荐本次随附的实测抖音41.3.0（versionCode410300）；原包未修改，与本机安装包SHA256一致。其他渠道同名41.3构建仍待核验，用户日志中的40.6 fallback不宣称全部解决。40.6–41.2兼容路径保留，旧版及其他机型不等于本轮全量实测。
+建议搭配本次附带的实测抖音 **41.3.0（410300）**。请在[发行页](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112890-2.1.0)同时下载 Doula 模块和 410300 抖音原包，安装后在 LSPosed 勾选抖音作用域并完整重启。已安装 410300 的用户可以直接更新模块。410301 仅部分离线适配。
 
-2.0已撤下，2.0.2发行说明完整带上其21组新增/扩展、19组旧功能变化/修复与未结案反馈：[完整日志（含2.0）](RELEASE-2.0.2.md) · [对比1.1.6清单](CHANGE-INVENTORY-2.0.md)。
-
-[下载2.0.2正式版及实测抖音APK](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112729-2.0.2) · [同代码测试版2.0.2-preview.1](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases/tag/2026112730-2.0.2-preview.1) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases)
-
-`Doula-2.0.2.apk`是模块；`Douyin-41.3.0-410300.apk`是实测宿主。覆盖安装后确认作用域并完整重启抖音。宿主不能覆盖时先反馈安装提示，不要卸载或清数据。
-
-正式版和测试版来自同一冻结源码、功能一致，只区分版本、通道和构建信息。Telegram只发正式模块及实测宿主：[交流群](https://t.me/Doula_LSPosed) · [下载](https://t.me/Doula_LSPosed/4) · [Bug反馈](https://t.me/Doula_LSPosed/32)。
-
-Android13+ / ARM64 / 现代Xposed API102。仍失效请冷启动停留至少15秒，导出完整LSPosed日志并附抖音下载渠道，搜索`Doula HostDiag v1`。其他验证边界见[记录](VALIDATION.md)。
-
-旧蓝奏链接仍为1.1.4修正版，新版请使用GitHub或Telegram正式附件。
+[完整更新说明](RELEASE-2.1.0.md) · [全部版本](https://github.com/Xposed-Modules-Repo/io.github.jhihhe.doula/releases) · [Telegram 下载](https://t.me/Doula_LSPosed/4) · [验证记录](VALIDATION.md)
 
 ## 项目速览
 
@@ -145,4 +135,4 @@ flowchart LR
 
 [提交问题](https://github.com/jhihhe/Doula-Douyin-LSPosed/issues)。体验有帮助，欢迎收藏、留言并自愿支持维护；反馈请附具体版本和复现步骤。
 
-Doula 当前界面、兼容层与发布维护者：**@Jhih he**。[版权与来源声明](NOTICES.md)。仓库用于文档、宣传图、真实截图与发行记录，不公开模块源码、原始输入 APK、私有日志或签名密钥。Doula 与抖音官方无隶属关系。
+Doula 当前界面、兼容层与发布维护者：**@Jhihhe**。[版权与来源声明](NOTICES.md)。仓库用于文档、宣传图、真实截图与发行记录，不公开模块源码、原始输入 APK、私有日志或签名密钥。Doula 与抖音官方无隶属关系。
